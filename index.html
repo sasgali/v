@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sas</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+   
+</head>
+<body>
+    <div class="greetings">
+    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
+        <span>V</span>
+        <span>A</span>
+        <span>N</span>
+        <span>I</span>
+        <span>A</span>
+        <span>&nbsp</span>
+        <span>D</span>
+        <span>I</span>
+        <span>A</span>
+        <span>H</span>
+        <span>&nbsp</span>
+        <span>S</span>
+        <span>A</span>
+        <span>L</span>
+        <span>S</span>
+        <span>A</span>
+        <span>B</span>
+        <span>I</span>
+        <span>L</span>
+        <span>A</span>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS untuk efek mengetik */
+        #lyrics {
+            white-space: pre;
+            overflow: hidden;
+            font-size: 16px;
+            border-right: .15em solid orange;
+            font-family: monospace;
+            margin: 0 auto;
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+    <div id="lyrics"></div>
+
+    <script>
+        // Lirik lagu yang akan ditampilkan
+        const lyrics = [
+            "Selamat siang bu guru",
+            "Tuan putri",
+            "Sayangku",
+            "Cantikku",
+            "Cintakku",
+            "Maap ya kalo nyebelin",
+            "Gampang ngantuk",
+            "Sering ku tinggal tidur duluan",
+            "Namanya juga manusia kan..",
+            "Jadi ya manusiawi wkwk",
+            "Dimaafin yaa..",
+            "Kamu kan pemaaf",
+            "Baru ngajar ya?",
+            "Ganggu bentar",
+            "Semangat ya hari ini",
+            "Dah setengah hari",
+            "Jangan marah marah wkkwkwkkw",
+            "S E M A N G A T ! ! ! !",
+            "Emm, itu aja sih",
+            "Gaje ya hehe",
+            "Bye bye cantikuuuuuuuu",
+            "btw pasminanya cakep juga🤭"
+        ];
+
+        // Fungsi untuk menampilkan lirik dengan efek mengetik
+        function typeWriter(text, i, callback) {
+            if (i < text.length) {
+                document.getElementById("lyrics").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(function () {
+                    typeWriter(text, i, callback);
+                }, 50);
+            } else {
+                setTimeout(callback, 1000);
+            }
+        }
+
+        // Fungsi untuk menampilkan lirik satu per satu
+        function displayLyrics() {
+            let lineIndex = 0;
+            function displayLine() {
+                if (lineIndex < lyrics.length) {
+                    document.getElementById("lyrics").innerHTML = "";
+                    typeWriter(lyrics[lineIndex], 0, function () {
+                        lineIndex++;
+                        displayLine();
+                    });
+                }
+            }
+            displayLine();
+        }
+
+        // Mulai menampilkan lirik
+        displayLyrics();
+    </script>
+</body>
+</html>
