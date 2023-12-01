@@ -102,6 +102,14 @@ body{
     font-size: 1rem;
     color: #111;
 }
+.endi{            
+    font-size: 10px;
+    font-family: monospace;
+    margin: 0 auto;
+    color: #fff
+        }
+    </style>
+}
 
 @media screen and (max-width:574px){
     .greetings{
