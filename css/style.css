@@ -96,7 +96,7 @@ body{
     font-size: 10px;
     font-family: monospace;
     margin: 0 auto;
-    justify-content: center;
+     text-align: center;
     color: #fff
 }
 
@@ -125,7 +125,7 @@ body{
          font-size: 10px;
     font-family: monospace;
     margin: 0 auto;
-    justify-content: center;
+    text-align: center;
     color: #fff
     }
     
