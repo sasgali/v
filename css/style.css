@@ -95,7 +95,6 @@ body{
 .description{
     font-size: 10px;
     font-family: monospace;
-    margin: 0 auto;
      text-align: center;
     color: #fff
 }
@@ -124,7 +123,6 @@ body{
     .description{
          font-size: 10px;
     font-family: monospace;
-    margin: 0 auto;
     text-align: center;
     color: #fff
     }
