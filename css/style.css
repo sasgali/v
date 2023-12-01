@@ -93,9 +93,9 @@ body{
 
  
 .description{
-    font-size: 10px;
+    font-size: 1.5rem;
     font-family: monospace;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .button a{
