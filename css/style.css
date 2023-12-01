@@ -108,7 +108,7 @@ body{
     font-size: 10px;
     font-family: monospace;
     margin: 0 auto;
-    color: #fff
+    color: grey
         }
     </style>
 }
@@ -124,7 +124,7 @@ body{
          font-size: 10px;
     font-family: monospace;
     text-align: center;
-    color: #fff
+    color: grey
     }
     
     .button a{
