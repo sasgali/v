@@ -95,8 +95,9 @@ body{
 .description{
     font-size: 10px;
     font-family: monospace;
-     text-align: center;
-    color: #fff
+    text-justify: center;
+    margin: 0 auto;
+    color: grey
 }
 
 .button a{
