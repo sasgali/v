@@ -95,6 +95,7 @@ body{
 .description{
     font-size: 0.3rem;
     margin-bottom: 1px;
+    justify-content: center;
 }
 
 .button a{
@@ -120,6 +121,7 @@ body{
     }
     .description{
         font-size: 0.3rem;
+        justify-content: center;
     }
     
     .button a{
