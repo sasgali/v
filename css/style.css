@@ -94,7 +94,7 @@ body{
 
 .description{
     font-size: 0.3rem;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 .button a{
@@ -119,7 +119,7 @@ body{
         text-align: center;
     }
     .description{
-        font-size: 1rem;
+        font-size: 0.3rem;
     }
     
     .button a{
