@@ -95,7 +95,9 @@ body{
 .description{
     font-size: 4px;
     font-family: monospace;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    color: azure;
+    text-align: center;
 }
 
 .button a{
