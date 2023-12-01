@@ -100,7 +100,7 @@ body{
 
 .button a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 10px;
     color: #111;
 }
 .endi{            
@@ -120,7 +120,7 @@ body{
         text-align: center;
     }
     .description{
-        font-size: 0.3rem;
+        font-size: 10px;
         justify-content: center;
     }
     
