@@ -95,8 +95,7 @@ body{
 .description{
     font-size: 10px;
     font-family: monospace;
-  
-    color: azure;
+    margin-bottom: 20px;
 }
 
 .button a{
@@ -116,7 +115,6 @@ body{
     }
     .description{
          font-size: 10px;
-    color: #fff
     }
     
     .button a{
