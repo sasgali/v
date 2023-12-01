@@ -91,13 +91,12 @@ body{
     animation-delay: 2s;
 }
 
-
+ 
 .description{
     font-size: 10px;
     font-family: monospace;
-    text-justify: center;
-    margin: 0 auto;
-    color: grey
+    margin: 20px;
+    color: azure;
 }
 
 .button a{
@@ -105,12 +104,6 @@ body{
     font-size: 10px;
     color: #111;
 }
-.endi{            
-    font-size: 10px;
-    font-family: monospace;
-    margin: 0 auto;
-    color: grey
-        }
     </style>
 }
 
@@ -125,7 +118,7 @@ body{
          font-size: 10px;
     font-family: monospace;
     text-align: center;
-    color: grey
+    color: #fff
     }
     
     .button a{
